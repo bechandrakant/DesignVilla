@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Design Villa</string>
+    <string name="category_title">Pick your category</string>
+    <string name="single_screen_apps">Single Screen Apps</string>
+    <string name="just_java_apps">Just Java Apps</string>
+    <string name="court_counter_apps">Court Counter Apps</string>
+    <string name="just_java_apps_with_localization">Just Java Apps With Localization</string>
+    <string name="quiz_apps">Quiz Apps</string>
+    <string name="miscellaneous">Miscellaneous</string>
+</resources>

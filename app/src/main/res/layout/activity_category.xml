@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CategoryActivity">
+
+    <LinearLayout
+        android:id="@+id/single_screen_apps"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zero_weight"
+        android:layout_marginBottom="@dimen/category_bottom_margin"
+        android:layout_weight="1"
+        android:background="@color/category_background">
+
+        <TextView
+            android:layout_width="@dimen/zero_weight"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/key_lines"
+            android:text="@string/single_screen_apps"
+            android:textColor="@color/category_text_color"
+            android:textSize="@dimen/category_text_size" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingRight="@dimen/key_lines"
+            android:text=" > "
+            android:textColor="@color/white"
+            android:textSize="@dimen/category_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/just_java_apps"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zero_weight"
+        android:layout_marginBottom="@dimen/category_bottom_margin"
+        android:layout_weight="1"
+        android:background="@color/category_background">
+
+        <TextView
+            android:layout_width="@dimen/zero_weight"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/key_lines"
+            android:text="@string/just_java_apps"
+            android:textColor="@color/category_text_color"
+            android:textSize="@dimen/category_text_size" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingRight="@dimen/key_lines"
+            android:text=" > "
+            android:textColor="@color/white"
+            android:textSize="@dimen/category_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/court_counter_apps"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zero_weight"
+        android:layout_marginBottom="@dimen/category_bottom_margin"
+        android:layout_weight="1"
+        android:background="@color/category_background">
+
+        <TextView
+            android:layout_width="@dimen/zero_weight"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/key_lines"
+            android:text="@string/court_counter_apps"
+            android:textColor="@color/category_text_color"
+            android:textSize="@dimen/category_text_size" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingRight="@dimen/key_lines"
+            android:text=" > "
+            android:textColor="@color/white"
+            android:textSize="@dimen/category_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/just_java_apps_with_localization"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zero_weight"
+        android:layout_marginBottom="@dimen/category_bottom_margin"
+        android:layout_weight="1"
+        android:background="@color/category_background">
+
+        <TextView
+            android:layout_width="@dimen/zero_weight"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/key_lines"
+            android:text="@string/just_java_apps_with_localization"
+            android:textColor="@color/category_text_color"
+            android:textSize="@dimen/category_text_size" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingRight="@dimen/key_lines"
+            android:text=" > "
+            android:textColor="@color/white"
+            android:textSize="@dimen/category_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/quiz_apps"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zero_weight"
+        android:layout_marginBottom="@dimen/category_bottom_margin"
+        android:layout_weight="1"
+        android:background="@color/category_background">
+
+        <TextView
+            android:layout_width="@dimen/zero_weight"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/key_lines"
+            android:text="@string/quiz_apps"
+            android:textColor="@color/category_text_color"
+            android:textSize="@dimen/category_text_size" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingRight="@dimen/key_lines"
+            android:text=" > "
+            android:textColor="@color/white"
+            android:textSize="@dimen/category_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/miscellaneous"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zero_weight"
+        android:layout_weight="1"
+        android:background="@color/category_background">
+
+        <TextView
+            android:layout_width="@dimen/zero_weight"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/key_lines"
+            android:text="@string/miscellaneous"
+            android:textColor="@color/category_text_color"
+            android:textSize="@dimen/category_text_size" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingRight="@dimen/key_lines"
+            android:text=" > "
+            android:textColor="@color/white"
+            android:textSize="@dimen/category_text_size" />
+    </LinearLayout>
+
+</LinearLayout>
